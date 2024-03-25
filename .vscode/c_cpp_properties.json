@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${vcpkgRoot}/arm64-linux/include"
+                "${vcpkgRoot}/arm64-linux/include",
+                "/ssd/ros2_humble/src/ros2/rclcpp/rclcpp/include/**",
+                "/ssd/ros2_humble/src/ros2/rclcpp/rclcpp/include/"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang-10",
