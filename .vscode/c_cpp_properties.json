@@ -5,8 +5,19 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${vcpkgRoot}/arm64-linux/include",
+                "/ssd/ros2_humble/install/**",
                 "/ssd/ros2_humble/src/ros2/rclcpp/rclcpp/include/**",
-                "/ssd/ros2_humble/src/ros2/rclcpp/rclcpp/include/"
+                "/ssd/ros2_humble/src/ros2/rclcpp/rclcpp/include/",
+                "/ssd/ros2_humble/src/ros2/rcl/rcl/include/**",
+                "/ssd/ros2_humble/src/ros2/rcl/rcl/include/",
+                "/ssd/ros2_humble/src/ros2/rmw/rmw/include/**",
+                "/ssd/ros2_humble/src/ros2/rmw/rmw/include/**",
+                "/ssd/ros2_humble/src/ros2/rcl/rcl_yaml_param_parser/include/**",
+                "/ssd/ros2_humble/install/type_description_interfaces/include/type_description_interfaces/**",
+                "/ssd/ros2_humble/install/example_interfaces/include/example_interfaces/**",
+                "/ssd/ros2_humble/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/**",
+                "/ssd/ros2_humble/install/rosidl_runtime_c/include/rosidl_runtime_c/**",
+                "/ssd/ros2_humble/src/ros2/rcutils/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang-10",

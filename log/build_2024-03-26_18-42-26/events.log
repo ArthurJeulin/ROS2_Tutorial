@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (-) JobUnselected: {'identifier': 'my_cpp_pck'}
+[0.001072] (my_py_pck) JobQueued: {'identifier': 'my_py_pck', 'dependencies': OrderedDict()}
+[0.001390] (my_py_pck) JobStarted: {'identifier': 'my_py_pck'}
+[0.099290] (-) TimerEvent: {}
+[0.199910] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400982] (-) TimerEvent: {}
+[0.501509] (-) TimerEvent: {}
+[0.602054] (-) TimerEvent: {}
+[0.702510] (-) TimerEvent: {}
+[0.802980] (-) TimerEvent: {}
+[0.903440] (-) TimerEvent: {}
+[1.003895] (-) TimerEvent: {}
+[1.104360] (-) TimerEvent: {}
+[1.163683] (my_py_pck) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pck', 'build', '--build-base', '/ssd/workspaces/learn_ros2/build/my_py_pck/build', 'install', '--record', '/ssd/workspaces/learn_ros2/build/my_py_pck/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ssd/workspaces/learn_ros2/src/my_py_pck', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arthur', 'SSH_CLIENT': '192.168.1.43 53768 22222', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/arthur/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/arthur/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/arthur', 'OLDPWD': '/ssd/workspaces/learn_ros2/src/my_py_pck/my_py_pck', 'TERM_PROGRAM_VERSION': '1.87.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-9aa1241d-d89a-41e1-aaa0-0971ff3de394.sock', 'JETSON_L4T': '35.4.1', 'JETSON_MODEL': 'Jetson AGX Orin Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/arthur/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js', 'VCPKG_FORCE_SYSTEM_BINARIES': '1', 'VSCODE_GIT_ASKPASS_NODE': '/home/arthur/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'arthur', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1421023000913', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'Concord', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ISAAC_ROS_WS': '/ssd/workspaces/isaac_ros-dev/', 'PATH': '/usr/local/cuda-11.4/bin:/home/arthur/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/arthur/.local/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d21a9131b6.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/ssd/workspaces/learn_ros2/build/my_py_pck', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.43 53768 192.168.1.114 22222', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages/:/usr/local/lib/python3.8/site-packages/:', 'COLCON': '1', 'JETSON_JETPACK': '5.1.2', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[1.204505] (-) TimerEvent: {}
+[1.305068] (-) TimerEvent: {}
+[1.405604] (-) TimerEvent: {}
+[1.506115] (-) TimerEvent: {}
+[1.562137] (my_py_pck) StdoutLine: {'line': b'running egg_info\n'}
+[1.563187] (my_py_pck) StdoutLine: {'line': b'writing ../../build/my_py_pck/my_py_pck.egg-info/PKG-INFO\n'}
+[1.563668] (my_py_pck) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pck/my_py_pck.egg-info/dependency_links.txt\n'}
+[1.563940] (my_py_pck) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pck/my_py_pck.egg-info/entry_points.txt\n'}
+[1.564181] (my_py_pck) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pck/my_py_pck.egg-info/requires.txt\n'}
+[1.564386] (my_py_pck) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pck/my_py_pck.egg-info/top_level.txt\n'}
+[1.606195] (-) TimerEvent: {}
+[1.622671] (my_py_pck) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'\n"}
+[1.624127] (my_py_pck) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'\n"}
+[1.624379] (my_py_pck) StdoutLine: {'line': b'running build\n'}
+[1.624565] (my_py_pck) StdoutLine: {'line': b'running build_py\n'}
+[1.624757] (my_py_pck) StdoutLine: {'line': b'copying my_py_pck/my_first_node.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck\n'}
+[1.625212] (my_py_pck) StdoutLine: {'line': b'running install\n'}
+[1.626604] (my_py_pck) StdoutLine: {'line': b'running install_lib\n'}
+[1.628251] (my_py_pck) StdoutLine: {'line': b'copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/my_first_node.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck\n'}
+[1.629278] (my_py_pck) StdoutLine: {'line': b'byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/my_first_node.py to my_first_node.cpython-38.pyc\n'}
+[1.631463] (my_py_pck) StdoutLine: {'line': b'running install_data\n'}
+[1.631705] (my_py_pck) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.634578] (my_py_pck) StdoutLine: {'line': b"removing '/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.635288] (my_py_pck) StdoutLine: {'line': b'Copying ../../build/my_py_pck/my_py_pck.egg-info to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck-0.0.0-py3.8.egg-info\n'}
+[1.637149] (my_py_pck) StdoutLine: {'line': b'running install_scripts\n'}
+[1.668997] (my_py_pck) StdoutLine: {'line': b"writing list of installed files to '/ssd/workspaces/learn_ros2/build/my_py_pck/install.log'\n"}
+[1.706312] (-) TimerEvent: {}
+[1.714267] (my_py_pck) CommandEnded: {'returncode': 0}
+[1.735086] (my_py_pck) JobEnded: {'identifier': 'my_py_pck', 'rc': 0}
+[1.736405] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[4.158s] Invoking command in '/ssd/workspaces/learn_ros2/build/my_py_pck': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /ssd/workspaces/learn_ros2/build/my_py_pck/build --no-deps symlink_data
+[6.006s] running develop
+[6.611s] running egg_info
+[6.612s] writing my_py_pck.egg-info/PKG-INFO
+[6.612s] writing dependency_links to my_py_pck.egg-info/dependency_links.txt
+[6.613s] writing entry points to my_py_pck.egg-info/entry_points.txt
+[6.613s] writing requirements to my_py_pck.egg-info/requires.txt
+[6.613s] writing top-level names to my_py_pck.egg-info/top_level.txt
+[6.679s] reading manifest file 'my_py_pck.egg-info/SOURCES.txt'
+[6.680s] writing manifest file 'my_py_pck.egg-info/SOURCES.txt'
+[6.814s] running build_ext
+[6.815s] Creating /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my-py-pck.egg-link (link to .)
+[6.817s] Installing py_node script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[6.817s] 
+[6.817s] Installed /ssd/workspaces/learn_ros2/build/my_py_pck
+[6.818s] running symlink_data
+[6.881s] Invoked command in '/ssd/workspaces/learn_ros2/build/my_py_pck' returned '0': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /ssd/workspaces/learn_ros2/build/my_py_pck/build --no-deps symlink_data
