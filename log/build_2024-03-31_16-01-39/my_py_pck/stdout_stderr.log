@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_py_pck.egg-info/PKG-INFO
+writing dependency_links to my_py_pck.egg-info/dependency_links.txt
+writing entry points to my_py_pck.egg-info/entry_points.txt
+writing requirements to my_py_pck.egg-info/requires.txt
+writing top-level names to my_py_pck.egg-info/top_level.txt
+reading manifest file 'my_py_pck.egg-info/SOURCES.txt'
+writing manifest file 'my_py_pck.egg-info/SOURCES.txt'
+running build_ext
+Creating /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my-py-pck.egg-link (link to .)
+Installing py_node script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+Installing robot_news_station script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+
+Installed /ssd/workspaces/learn_ros2/build/my_py_pck
+running symlink_data
+symbolically linking /ssd/workspaces/learn_ros2/build/my_py_pck/resource/my_py_pck -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/ament_index/resource_index/packages
+symbolically linking /ssd/workspaces/learn_ros2/build/my_py_pck/package.xml -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/my_py_pck
