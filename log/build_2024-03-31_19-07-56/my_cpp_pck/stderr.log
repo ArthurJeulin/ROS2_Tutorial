@@ -1,0 +1,75 @@
+In file included from [01m[K/ssd/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:[m[K In member function ‘[01m[Kvoid AddTwoInstsServerNode::callbackAddTwoInts(example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d + d% = d%"[m[K,[32m[Krequest->a[m[K, request->b, response->sum);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(this->get_logger(),"[01;36m[K%d[m[K + d% = d%",request->a, request->b, response->sum);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%ld[m[K
+In file included from [01m[K/ssd/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:40:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K=[m[K’ in format [[01;35m[K-Wformat=[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d + d% = d%"[m[K,request->a, request->b, response->sum);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(this->get_logger(),"%d + d% [01;36m[K=[m[K d%",request->a, request->b, response->sum);
+      |                                                 [01;36m[K^[m[K
+In file included from [01m[K/ssd/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:40:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K-Wformat=[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d + d% = d%"[m[K,request->a, request->b, response->sum);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   23 |         RCLCPP_INFO(this->get_logger(),"%d + d% = d[01;36m[K%[m[K",request->a, request->b, response->sum);
+      |                                                    [01;36m[K^[m[K
+In file included from [01m[K/ssd/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/add_two_ints_server.cpp:23:40:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   23 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d + d% = d%"[m[K,request->a, request->b, response->sum);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K
