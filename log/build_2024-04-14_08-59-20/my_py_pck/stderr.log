@@ -1,0 +1,5 @@
+  File "/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_server.py", line 13
+    self.get_logger().info(str(request.a) + " + " + str(request.b) + " = " str(response.sum))
+                                                                           ^
+SyntaxError: invalid syntax
+

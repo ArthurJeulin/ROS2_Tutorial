@@ -1,0 +1,51 @@
+[4.299s] Invoking command in '/ssd/workspaces/learn_ros2/build/my_py_pck': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /ssd/workspaces/learn_ros2/build/my_py_pck/build
+[6.145s] running develop
+[6.759s] Removing /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my-py-pck.egg-link (link to .)
+[6.809s] Invoked command in '/ssd/workspaces/learn_ros2/build/my_py_pck' returned '0': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /ssd/workspaces/learn_ros2/build/my_py_pck/build
+[6.814s] Invoking command in '/ssd/workspaces/learn_ros2/src/my_py_pck': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pck build --build-base /ssd/workspaces/learn_ros2/build/my_py_pck/build install --record /ssd/workspaces/learn_ros2/build/my_py_pck/install.log --single-version-externally-managed install_data --force
+[8.524s] running egg_info
+[8.525s] writing ../../build/my_py_pck/my_py_pck.egg-info/PKG-INFO
+[8.525s] writing dependency_links to ../../build/my_py_pck/my_py_pck.egg-info/dependency_links.txt
+[8.525s] writing entry points to ../../build/my_py_pck/my_py_pck.egg-info/entry_points.txt
+[8.526s] writing requirements to ../../build/my_py_pck/my_py_pck.egg-info/requires.txt
+[8.526s] writing top-level names to ../../build/my_py_pck/my_py_pck.egg-info/top_level.txt
+[8.607s] reading manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'
+[8.608s] writing manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'
+[8.608s] running build
+[8.609s] running build_py
+[8.609s] copying my_py_pck/add_two_ints_client.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+[8.609s] copying my_py_pck/add_two_ints_server.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+[8.610s] copying my_py_pck/add_two_ints_client_no_oop.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+[8.610s] running install
+[8.616s] running install_lib
+[8.618s] creating /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.618s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/template_python_node.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.619s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/my_first_node.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.619s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/add_two_ints_client.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.619s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/add_two_ints_server.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.619s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/smartphone.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.620s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/robot_news_station.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.620s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/__init__.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.620s] copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/add_two_ints_client_no_oop.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+[8.625s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/template_python_node.py to template_python_node.cpython-38.pyc
+[8.628s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/my_first_node.py to my_first_node.cpython-38.pyc
+[8.628s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_client.py to add_two_ints_client.cpython-38.pyc
+[8.629s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[8.630s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/smartphone.py to smartphone.cpython-38.pyc
+[8.630s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/robot_news_station.py to robot_news_station.cpython-38.pyc
+[8.631s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/__init__.py to __init__.cpython-38.pyc
+[8.631s] byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc
+[8.632s] running install_data
+[8.632s] copying resource/my_py_pck -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/ament_index/resource_index/packages
+[8.632s] copying package.xml -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/my_py_pck
+[8.633s] running install_egg_info
+[8.640s] Copying ../../build/my_py_pck/my_py_pck.egg-info to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck-0.0.0-py3.8.egg-info
+[8.642s] running install_scripts
+[8.702s] Installing add_two_ints_client script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.702s] Installing add_two_ints_client_no_oop script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.703s] Installing add_two_ints_server script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.703s] Installing py_node script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.703s] Installing robot_news_station script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.703s] Installing smartphone script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+[8.704s] writing list of installed files to '/ssd/workspaces/learn_ros2/build/my_py_pck/install.log'
+[8.753s] Invoked command in '/ssd/workspaces/learn_ros2/src/my_py_pck' returned '0': PYTHONPATH=/ssd/workspaces/learn_ros2/build/my_py_pck/prefix_override:/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pck build --build-base /ssd/workspaces/learn_ros2/build/my_py_pck/build install --record /ssd/workspaces/learn_ros2/build/my_py_pck/install.log --single-version-externally-managed install_data --force

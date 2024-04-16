@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (-) JobUnselected: {'identifier': 'my_cpp_pck'}
+[0.001051] (my_py_pck) JobQueued: {'identifier': 'my_py_pck', 'dependencies': OrderedDict()}
+[0.001358] (my_py_pck) JobStarted: {'identifier': 'my_py_pck'}
+[0.063296] (my_py_pck) JobEnded: {'identifier': 'my_py_pck', 'rc': 0}
+[0.064855] (-) EventReactorShutdown: {}

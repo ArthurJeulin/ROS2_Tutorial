@@ -1,0 +1,30 @@
+[ 56%] Built target cpp_node
+[ 56%] Built target smartphone
+[ 75%] Built target add_two_ints_server
+[ 56%] Built target robot_news_station
+[ 56%] Built target add_two_ints_client
+[ 75%] Built target number_counter
+[100%] Built target add_two_ints_client_no_oop
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/cpp_node
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/robot_news_station
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/smartphone
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/add_two_ints_server
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/add_two_ints_client_no_oop
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/add_two_ints_client
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/number_publisher
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/lib/my_cpp_pck/number_counter
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/ament_index/resource_index/package_run_dependencies/my_cpp_pck
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/ament_index/resource_index/parent_prefix_path/my_cpp_pck
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/environment/ament_prefix_path.dsv
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/environment/path.dsv
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/local_setup.bash
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/local_setup.sh
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/local_setup.zsh
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/local_setup.dsv
+-- Installing: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/package.dsv
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/ament_index/resource_index/packages/my_cpp_pck
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/cmake/my_cpp_pckConfig.cmake
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/cmake/my_cpp_pckConfig-version.cmake
+-- Up-to-date: /ssd/workspaces/learn_ros2/install/my_cpp_pck/share/my_cpp_pck/package.xml

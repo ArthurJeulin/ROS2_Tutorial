@@ -1,0 +1,45 @@
+running develop
+Removing /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my-py-pck.egg-link (link to .)
+running egg_info
+writing ../../build/my_py_pck/my_py_pck.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_py_pck/my_py_pck.egg-info/dependency_links.txt
+writing entry points to ../../build/my_py_pck/my_py_pck.egg-info/entry_points.txt
+writing requirements to ../../build/my_py_pck/my_py_pck.egg-info/requires.txt
+writing top-level names to ../../build/my_py_pck/my_py_pck.egg-info/top_level.txt
+reading manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_py_pck/my_py_pck.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_py_pck/add_two_ints_server.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+copying my_py_pck/smartphone.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+copying my_py_pck/robot_news_station.py -> /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck
+running install
+running install_lib
+creating /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/template_python_node.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/my_first_node.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/add_two_ints_server.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/smartphone.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/robot_news_station.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+copying /ssd/workspaces/learn_ros2/build/my_py_pck/build/lib/my_py_pck/__init__.py -> /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/template_python_node.py to template_python_node.cpython-38.pyc
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/my_first_node.py to my_first_node.cpython-38.pyc
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+  File "/ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/add_two_ints_server.py", line 13
+    self.get_logger().info(str(request.a) + " + " + str(request.b) + " = " str(response.sum))
+                                                                           ^
+SyntaxError: invalid syntax
+
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/smartphone.py to smartphone.cpython-38.pyc
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/robot_news_station.py to robot_news_station.cpython-38.pyc
+byte-compiling /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/my_py_pck -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/ament_index/resource_index/packages
+copying package.xml -> /ssd/workspaces/learn_ros2/install/my_py_pck/share/my_py_pck
+running install_egg_info
+Copying ../../build/my_py_pck/my_py_pck.egg-info to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/python3.8/site-packages/my_py_pck-0.0.0-py3.8.egg-info
+running install_scripts
+Installing py_node script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+Installing robot_news_station script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+Installing smartphone = my_py_pck.smartphone:mainadd_two_ints_server script to /ssd/workspaces/learn_ros2/install/my_py_pck/lib/my_py_pck
+writing list of installed files to '/ssd/workspaces/learn_ros2/build/my_py_pck/install.log'
