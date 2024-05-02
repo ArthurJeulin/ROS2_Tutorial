@@ -1,0 +1,92 @@
+-- Found ament_cmake: 2.0.3 (/ssd/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.3 (/ssd/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/ssd/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/ssd/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.10.2 (/ssd/ros2_humble/install/example_interfaces/share/example_interfaces/cmake)
+-- Configuring done (11.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /ssd/workspaces/learn_ros2/build/my_cpp_pck
+[  5%] [32mBuilding CXX object CMakeFiles/reset_number_counter.dir/src/reset_number_counter.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o[0m
+[ 30%] Built target smartphone
+[ 30%] Built target cpp_node
+[ 55%] Built target add_two_ints_client_no_oop
+[ 65%] Built target add_two_ints_client
+[ 50%] Built target number_publisher
+[ 80%] Built target robot_news_station
+[ 80%] Built target number_counter
+[ 85%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ in namespace ‘[01m[Kexample_interfaces[m[K’ does not name a type
+   51 |   void callbackResetCounter(const example_interfaces::[01;31m[Ksrv[m[K::AddTwoInts::Request::SharedPtr request,
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   51 |   void callbackResetCounter(const example_interfaces::srv::AddTwoInts[01;31m[K::[m[KRequest::SharedPtr request,
+      |                                                                      [01;31m[K^~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   51 |   void callbackResetCounter[34m[K([m[Kconst example_interfaces::srv::AddTwoInts[01;31m[K:[m[K[32m[K:[m[KRequest::SharedPtr request,
+      |                            [34m[K~[m[K                                         [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                      [32m[K)[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   51 |   void callbackResetCounter(const example_interfaces::srv::[01;31m[KAddTwoInts[m[K::Request::SharedPtr request,
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:72:[m[K [01;31m[Kerror: [m[K‘[01m[KRequest[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   51 |   void callbackResetCounter(const example_interfaces::srv::AddTwoInts::[01;31m[KRequest[m[K::SharedPtr request,
+      |                                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kexample_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   66 |   rclcpp::Service<example_interfaces::[01;31m[Ksrv[m[K::SetBool>::SharedPtr _server;
+      |                                       [01;31m[K^~~[m[K
+In file included from [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:1[m[K:
+[01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |   rclcpp::Service<example_interfaces::srv::SetBool[01;31m[K>[m[K::SharedPtr _server;
+      |                                                   [01;31m[K^[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |   rclcpp::Service<example_interfaces::srv::SetBool>::[01;31m[KSharedPtr[m[K _server;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:64:[m[K [01;31m[Kerror: [m[K‘[01m[K_server[m[K’ does not name a type
+   66 |   rclcpp::Service<example_interfaces::srv::SetBool>::SharedPtr [01;31m[K_server[m[K;
+      |                                                                [01;31m[K^~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/reset_number_counter.cpp:[m[K In constructor ‘[01m[KResetNumberCounterNode::ResetNumberCounterNode()[m[K’:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/reset_number_counter.cpp:9:49:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsClientNode[m[K’ was not declared in this scope
+    9 |       _threads.push_back(std::thread(std::bind(&[01;31m[KAddTwoIntsClientNode[m[K::callbackResetCounter,this)));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::NumberCounterNode()[m[K’:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_server[m[K’ was not declared in this scope
+   18 |     [01;31m[K_server[m[K = this->create_service<example_interfaces::srv::SetBool>("reset_counter",
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kexample_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   18 |     _server = this->create_service<example_interfaces::[01;31m[Ksrv[m[K::SetBool>("reset_counter",
+      |                                                        [01;31m[K^~~[m[K
+In file included from [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:1[m[K:
+[01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   18 |     _server = this->[01;31m[Kcreate_service<example_interfaces::srv::SetBool>[m[K("reset_counter",
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInstsServerNode[m[K’ has not been declared
+   19 |         std::bind(&[01;31m[KAddTwoInstsServerNode[m[K::callbackResetCounter, this,
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/reset_number_counter.dir/build.make:76: CMakeFiles/reset_number_counter.dir/src/reset_number_counter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/reset_number_counter.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 90%] [32m[1mLinking CXX executable add_two_ints_server[0m
+make[2]: *** [CMakeFiles/number_counter_reset.dir/build.make:76: CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/number_counter_reset.dir/all] Error 2
+[ 90%] Built target add_two_ints_server
+make: *** [Makefile:146: all] Error 2

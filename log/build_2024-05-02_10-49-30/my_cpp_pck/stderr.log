@@ -1,0 +1,8 @@
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::callbackResetCounter(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:59:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   59 |         response->success = true
+      |                                 [01;31m[K^[m[K
+      |                                 [32m[K;[m[K
+make[2]: *** [CMakeFiles/number_counter_reset.dir/build.make:76: CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/number_counter_reset.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

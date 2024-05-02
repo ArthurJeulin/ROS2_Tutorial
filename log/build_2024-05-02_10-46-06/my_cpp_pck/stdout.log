@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.0.3 (/ssd/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.3 (/ssd/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/ssd/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/ssd/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.10.2 (/ssd/ros2_humble/install/example_interfaces/share/example_interfaces/cmake)
+-- Configuring done (11.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /ssd/workspaces/learn_ros2/build/my_cpp_pck
+[  5%] [32mBuilding CXX object CMakeFiles/reset_number_counter.dir/src/reset_number_counter.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o[0m
+[ 30%] Built target smartphone
+[ 30%] Built target cpp_node
+[ 55%] Built target add_two_ints_client_no_oop
+[ 65%] Built target add_two_ints_client
+[ 50%] Built target number_publisher
+[ 80%] Built target robot_news_station
+[ 80%] Built target number_counter
+[ 85%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[ 90%] Built target add_two_ints_server

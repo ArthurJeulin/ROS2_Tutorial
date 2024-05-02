@@ -1,0 +1,94 @@
+[0.089s] Invoking command in '/ssd/workspaces/learn_ros2/build/my_cpp_pck': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ssd/workspaces/learn_ros2/install/my_py_pck:/ssd/ros2_humble/install/rqt_bag_plugins:/ssd/ros2_humble/install/rqt_bag:/ssd/ros2_humble/install/rosbag2_examples_py:/ssd/ros2_humble/install/launch_testing_examples:/ssd/ros2_humble/install/ros2bag:/ssd/ros2_humble/install/tracetools_test:/ssd/ros2_humble/install/tracetools_launch:/ssd/ros2_humble/install/topic_monitor:/ssd/ros2_humble/install/tf2_tools:/ssd/ros2_humble/install/examples_tf2_py:/ssd/ros2_humble/install/tf2_ros_py:/ssd/ros2_humble/install/examples_rclpy_pointcloud_publisher:/ssd/ros2_humble/install/sensor_msgs_py:/ssd/ros2_humble/install/quality_of_service_demo_py:/ssd/ros2_humble/install/rqt_plot:/ssd/ros2_humble/install/ros2doctor:/ssd/ros2_humble/install/lifecycle_py:/ssd/ros2_humble/install/examples_rclpy_minimal_subscriber:/ssd/ros2_humble/install/examples_rclpy_minimal_service:/ssd/ros2_humble/install/examples_rclpy_minimal_publisher:/ssd/ros2_humble/install/examples_rclpy_minimal_client:/ssd/ros2_humble/install/examples_rclpy_executors:/ssd/ros2_humble/install/demo_nodes_py:/ssd/ros2_humble/install/rqt:/ssd/ros2_humble/install/ros2component:/ssd/ros2_humble/install/sros2:/ssd/ros2_humble/install/rqt_topic:/ssd/ros2_humble/install/rqt_srv:/ssd/ros2_humble/install/rqt_shell:/ssd/ros2_humble/install/rqt_service_caller:/ssd/ros2_humble/install/rqt_reconfigure:/ssd/ros2_humble/install/rqt_py_console:/ssd/ros2_humble/install/rqt_publisher:/ssd/ros2_humble/install/rqt_action:/ssd/ros2_humble/install/rqt_msg:/ssd/ros2_humble/install/rqt_console:/ssd/ros2_humble/install/rqt_graph:/ssd/ros2_humble/install/rqt_gui_py:/ssd/ros2_humble/install/rqt_gui:/ssd/ros2_humble/install/ros2trace:/ssd/ros2_humble/install/ros2topic:/ssd/ros2_humble/install/ros2test:/ssd/ros2_humble/install/ros2param:/ssd/ros2_humble/install/ros2lifecycle:/ssd/ros2_humble/install/ros2service:/ssd/ros2_humble/install/ros2run:/ssd/ros2_humble/install/ros2launch:/ssd/ros2_humble/install/ros2pkg:/ssd/ros2_humble/install/ros2node:/ssd/ros2_humble/install/ros2multicast:/ssd/ros2_humble/install/ros2interface:/ssd/ros2_humble/install/ros2action:/ssd/ros2_humble/install/ros2cli:/ssd/ros2_humble/install/launch_testing_ros:/ssd/ros2_humble/install/launch_ros:/ssd/ros2_humble/install/examples_rclpy_minimal_action_server:/ssd/ros2_humble/install/examples_rclpy_minimal_action_client:/ssd/ros2_humble/install/examples_rclpy_guard_conditions:/ssd/ros2_humble/install/action_tutorials_py:/ssd/ros2_humble/install/ament_uncrustify:/ssd/ros2_humble/install/tracetools_trace:/ssd/ros2_humble/install/tracetools_read:/ssd/ros2_humble/install/test_tracetools_launch:/ssd/ros2_humble/install/test_ros2trace:/ssd/ros2_humble/install/test_launch_ros:/ssd/ros2_humble/install/rpyutils:/ssd/ros2_humble/install/rosidl_runtime_py:/ssd/ros2_humble/install/rosidl_pycommon:/ssd/ros2_humble/install/rosidl_cli:/ssd/ros2_humble/install/launch_pytest:/ssd/ros2_humble/install/launch_testing:/ssd/ros2_humble/install/launch_yaml:/ssd/ros2_humble/install/launch_xml:/ssd/ros2_humble/install/launch:/ssd/ros2_humble/install/osrf_pycommon:/ssd/ros2_humble/install/domain_coordinator:/ssd/ros2_humble/install/ament_xmllint:/ssd/ros2_humble/install/ament_pyflakes:/ssd/ros2_humble/install/ament_pycodestyle:/ssd/ros2_humble/install/ament_pep257:/ssd/ros2_humble/install/ament_pclint:/ssd/ros2_humble/install/ament_package:/ssd/ros2_humble/install/ament_mypy:/ssd/ros2_humble/install/ament_lint_cmake:/ssd/ros2_humble/install/ament_flake8:/ssd/ros2_humble/install/ament_copyright:/ssd/ros2_humble/install/ament_lint:/ssd/ros2_humble/install/ament_index_python:/ssd/ros2_humble/install/ament_cpplint:/ssd/ros2_humble/install/ament_cppcheck:/ssd/ros2_humble/install/ament_clang_tidy:/ssd/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --build /ssd/workspaces/learn_ros2/build/my_cpp_pck -- -j12 -l12
+[1.107s] -- Found ament_cmake: 2.0.3 (/ssd/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+[8.747s] -- Found rclcpp: 21.0.3 (/ssd/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+[8.842s] -- Found rosidl_generator_c: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[8.866s] -- Found rosidl_generator_cpp: 4.0.1 (/ssd/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[8.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[9.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[9.516s] -- Found rmw_implementation_cmake: 7.1.0 (/ssd/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[9.579s] -- Found rmw_fastrtps_cpp: 7.1.1 (/ssd/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[10.198s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.622s] -- Found example_interfaces: 0.10.2 (/ssd/ros2_humble/install/example_interfaces/share/example_interfaces/cmake)
+[12.664s] -- Configuring done (11.6s)
+[12.888s] -- Generating done (0.2s)
+[12.893s] -- Build files have been written to: /ssd/workspaces/learn_ros2/build/my_cpp_pck
+[12.983s] [  5%] [32mBuilding CXX object CMakeFiles/reset_number_counter.dir/src/reset_number_counter.cpp.o[0m
+[12.988s] [ 10%] [32mBuilding CXX object CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o[0m
+[13.006s] [ 30%] Built target smartphone
+[13.006s] [ 30%] Built target cpp_node
+[13.007s] [ 55%] Built target add_two_ints_client_no_oop
+[13.007s] [ 65%] Built target add_two_ints_client
+[13.007s] [ 50%] Built target number_publisher
+[13.008s] [ 80%] Built target robot_news_station
+[13.008s] [ 80%] Built target number_counter
+[13.012s] [ 85%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[18.900s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ in namespace ‘[01m[Kexample_interfaces[m[K’ does not name a type
+[18.901s]    51 |   void callbackResetCounter(const example_interfaces::[01;31m[Ksrv[m[K::AddTwoInts::Request::SharedPtr request,
+[18.901s]       |                                                       [01;31m[K^~~[m[K
+[18.901s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[18.901s]    51 |   void callbackResetCounter(const example_interfaces::srv::AddTwoInts[01;31m[K::[m[KRequest::SharedPtr request,
+[18.901s]       |                                                                      [01;31m[K^~[m[K
+[18.902s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[18.902s]    51 |   void callbackResetCounter[34m[K([m[Kconst example_interfaces::srv::AddTwoInts[01;31m[K:[m[K[32m[K:[m[KRequest::SharedPtr request,
+[18.902s]       |                            [34m[K~[m[K                                         [01;31m[K^[m[K[32m[K~[m[K
+[18.902s]       |                                                                      [32m[K)[m[K
+[18.902s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.902s]    51 |   void callbackResetCounter(const example_interfaces::srv::[01;31m[KAddTwoInts[m[K::Request::SharedPtr request,
+[18.903s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[18.903s]       |                                                                      [32m[K;[m[K
+[18.903s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:51:72:[m[K [01;31m[Kerror: [m[K‘[01m[KRequest[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[18.903s]    51 |   void callbackResetCounter(const example_interfaces::srv::AddTwoInts::[01;31m[KRequest[m[K::SharedPtr request,
+[18.903s]       |                                                                        [01;31m[K^~~~~~~[m[K
+[18.903s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kexample_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[18.904s]    66 |   rclcpp::Service<example_interfaces::[01;31m[Ksrv[m[K::SetBool>::SharedPtr _server;
+[18.904s]       |                                       [01;31m[K^~~[m[K
+[18.904s] In file included from [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[18.904s]                  from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[18.904s]                  from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[18.904s]                  from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:1[m[K:
+[18.904s] [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[18.904s]    27 | namespace [01;36m[Ksrv[m[K
+[18.905s]       |           [01;36m[K^~~[m[K
+[18.905s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.905s]    66 |   rclcpp::Service<example_interfaces::srv::SetBool[01;31m[K>[m[K::SharedPtr _server;
+[18.905s]       |                                                   [01;31m[K^[m[K
+[18.905s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.905s]    66 |   rclcpp::Service<example_interfaces::srv::SetBool>::[01;31m[KSharedPtr[m[K _server;
+[18.905s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[18.906s]       |                                                               [32m[K;[m[K
+[18.907s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:66:64:[m[K [01;31m[Kerror: [m[K‘[01m[K_server[m[K’ does not name a type
+[18.907s]    66 |   rclcpp::Service<example_interfaces::srv::SetBool>::SharedPtr [01;31m[K_server[m[K;
+[18.907s]       |                                                                [01;31m[K^~~~~~~[m[K
+[18.968s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/reset_number_counter.cpp:[m[K In constructor ‘[01m[KResetNumberCounterNode::ResetNumberCounterNode()[m[K’:
+[18.969s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/reset_number_counter.cpp:9:49:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsClientNode[m[K’ was not declared in this scope
+[18.969s]     9 |       _threads.push_back(std::thread(std::bind(&[01;31m[KAddTwoIntsClientNode[m[K::callbackResetCounter,this)));
+[18.969s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[19.036s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::NumberCounterNode()[m[K’:
+[19.037s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_server[m[K’ was not declared in this scope
+[19.037s]    18 |     [01;31m[K_server[m[K = this->create_service<example_interfaces::srv::SetBool>("reset_counter",
+[19.037s]       |     [01;31m[K^~~~~~~[m[K
+[19.038s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kexample_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[19.038s]    18 |     _server = this->create_service<example_interfaces::[01;31m[Ksrv[m[K::SetBool>("reset_counter",
+[19.038s]       |                                                        [01;31m[K^~~[m[K
+[19.038s] In file included from [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[19.038s]                  from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[19.038s]                  from [01m[K/ssd/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[19.038s]                  from [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:1[m[K:
+[19.039s] [01m[K/ssd/ros2_humble/build/rcl_interfaces/rosidl_generator_cpp/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[19.039s]    27 | namespace [01;36m[Ksrv[m[K
+[19.039s]       |           [01;36m[K^~~[m[K
+[19.039s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:18:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[19.039s]    18 |     _server = this->[01;31m[Kcreate_service<example_interfaces::srv::SetBool>[m[K("reset_counter",
+[19.039s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.039s] [01m[K/ssd/workspaces/learn_ros2/src/my_cpp_pck/src/number_counter_reset.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInstsServerNode[m[K’ has not been declared
+[19.039s]    19 |         std::bind(&[01;31m[KAddTwoInstsServerNode[m[K::callbackResetCounter, this,
+[19.040s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[21.512s] make[2]: *** [CMakeFiles/reset_number_counter.dir/build.make:76: CMakeFiles/reset_number_counter.dir/src/reset_number_counter.cpp.o] Error 1
+[21.513s] make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/reset_number_counter.dir/all] Error 2
+[21.513s] make[1]: *** Waiting for unfinished jobs....
+[22.623s] [ 90%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[24.201s] make[2]: *** [CMakeFiles/number_counter_reset.dir/build.make:76: CMakeFiles/number_counter_reset.dir/src/number_counter_reset.cpp.o] Error 1
+[24.201s] make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/number_counter_reset.dir/all] Error 2
+[24.216s] [ 90%] Built target add_two_ints_server
+[24.218s] make: *** [Makefile:146: all] Error 2
+[24.230s] Invoked command in '/ssd/workspaces/learn_ros2/build/my_cpp_pck' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ssd/workspaces/learn_ros2/install/my_py_pck:/ssd/ros2_humble/install/rqt_bag_plugins:/ssd/ros2_humble/install/rqt_bag:/ssd/ros2_humble/install/rosbag2_examples_py:/ssd/ros2_humble/install/launch_testing_examples:/ssd/ros2_humble/install/ros2bag:/ssd/ros2_humble/install/tracetools_test:/ssd/ros2_humble/install/tracetools_launch:/ssd/ros2_humble/install/topic_monitor:/ssd/ros2_humble/install/tf2_tools:/ssd/ros2_humble/install/examples_tf2_py:/ssd/ros2_humble/install/tf2_ros_py:/ssd/ros2_humble/install/examples_rclpy_pointcloud_publisher:/ssd/ros2_humble/install/sensor_msgs_py:/ssd/ros2_humble/install/quality_of_service_demo_py:/ssd/ros2_humble/install/rqt_plot:/ssd/ros2_humble/install/ros2doctor:/ssd/ros2_humble/install/lifecycle_py:/ssd/ros2_humble/install/examples_rclpy_minimal_subscriber:/ssd/ros2_humble/install/examples_rclpy_minimal_service:/ssd/ros2_humble/install/examples_rclpy_minimal_publisher:/ssd/ros2_humble/install/examples_rclpy_minimal_client:/ssd/ros2_humble/install/examples_rclpy_executors:/ssd/ros2_humble/install/demo_nodes_py:/ssd/ros2_humble/install/rqt:/ssd/ros2_humble/install/ros2component:/ssd/ros2_humble/install/sros2:/ssd/ros2_humble/install/rqt_topic:/ssd/ros2_humble/install/rqt_srv:/ssd/ros2_humble/install/rqt_shell:/ssd/ros2_humble/install/rqt_service_caller:/ssd/ros2_humble/install/rqt_reconfigure:/ssd/ros2_humble/install/rqt_py_console:/ssd/ros2_humble/install/rqt_publisher:/ssd/ros2_humble/install/rqt_action:/ssd/ros2_humble/install/rqt_msg:/ssd/ros2_humble/install/rqt_console:/ssd/ros2_humble/install/rqt_graph:/ssd/ros2_humble/install/rqt_gui_py:/ssd/ros2_humble/install/rqt_gui:/ssd/ros2_humble/install/ros2trace:/ssd/ros2_humble/install/ros2topic:/ssd/ros2_humble/install/ros2test:/ssd/ros2_humble/install/ros2param:/ssd/ros2_humble/install/ros2lifecycle:/ssd/ros2_humble/install/ros2service:/ssd/ros2_humble/install/ros2run:/ssd/ros2_humble/install/ros2launch:/ssd/ros2_humble/install/ros2pkg:/ssd/ros2_humble/install/ros2node:/ssd/ros2_humble/install/ros2multicast:/ssd/ros2_humble/install/ros2interface:/ssd/ros2_humble/install/ros2action:/ssd/ros2_humble/install/ros2cli:/ssd/ros2_humble/install/launch_testing_ros:/ssd/ros2_humble/install/launch_ros:/ssd/ros2_humble/install/examples_rclpy_minimal_action_server:/ssd/ros2_humble/install/examples_rclpy_minimal_action_client:/ssd/ros2_humble/install/examples_rclpy_guard_conditions:/ssd/ros2_humble/install/action_tutorials_py:/ssd/ros2_humble/install/ament_uncrustify:/ssd/ros2_humble/install/tracetools_trace:/ssd/ros2_humble/install/tracetools_read:/ssd/ros2_humble/install/test_tracetools_launch:/ssd/ros2_humble/install/test_ros2trace:/ssd/ros2_humble/install/test_launch_ros:/ssd/ros2_humble/install/rpyutils:/ssd/ros2_humble/install/rosidl_runtime_py:/ssd/ros2_humble/install/rosidl_pycommon:/ssd/ros2_humble/install/rosidl_cli:/ssd/ros2_humble/install/launch_pytest:/ssd/ros2_humble/install/launch_testing:/ssd/ros2_humble/install/launch_yaml:/ssd/ros2_humble/install/launch_xml:/ssd/ros2_humble/install/launch:/ssd/ros2_humble/install/osrf_pycommon:/ssd/ros2_humble/install/domain_coordinator:/ssd/ros2_humble/install/ament_xmllint:/ssd/ros2_humble/install/ament_pyflakes:/ssd/ros2_humble/install/ament_pycodestyle:/ssd/ros2_humble/install/ament_pep257:/ssd/ros2_humble/install/ament_pclint:/ssd/ros2_humble/install/ament_package:/ssd/ros2_humble/install/ament_mypy:/ssd/ros2_humble/install/ament_lint_cmake:/ssd/ros2_humble/install/ament_flake8:/ssd/ros2_humble/install/ament_copyright:/ssd/ros2_humble/install/ament_lint:/ssd/ros2_humble/install/ament_index_python:/ssd/ros2_humble/install/ament_cpplint:/ssd/ros2_humble/install/ament_cppcheck:/ssd/ros2_humble/install/ament_clang_tidy:/ssd/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --build /ssd/workspaces/learn_ros2/build/my_cpp_pck -- -j12 -l12
