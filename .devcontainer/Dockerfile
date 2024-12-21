@@ -4,12 +4,11 @@
 #      Created by Arthur JEULIN on 12/30/2024.
 # **********************************************************
 #
-# Module : ROS 2 environment
+# Module : ROS 2 environment on Jetson
 #
 
-
-FROM ros:humble
-
+# FROM ros:humble
+FROM docker.io/dustynv/ros:humble-desktop-l4t-r35.4.1
 
 RUN apt-get update && apt-get install -y \
     autoconf \
@@ -59,15 +58,16 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Ajouter la commande pour sourcer le setup.bash dans le .bashrc
-RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+# RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+RUN echo "source /opt/ros/humble/install/setup.bash" >> ~/.bashrc
 
-RUN wget https://github.com/Kitware/CMake/releases/download/v3.27.5/cmake-3.27.5.tar.gz && \
-tar -zxvf cmake-3.27.5.tar.gz && \
-cd cmake-3.27.5 && \
-./bootstrap && \
-make && \
-make install && \
-cd ..  && \
-rm cmake-3.27.5.tar.gz
+# RUN wget https://github.com/Kitware/CMake/releases/download/v3.27.5/cmake-3.27.5.tar.gz && \
+# tar -zxvf cmake-3.27.5.tar.gz && \
+# cd cmake-3.27.5 && \
+# ./bootstrap && \
+# make && \
+# make install && \
+# cd ..  && \
+# rm cmake-3.27.5.tar.gz
 
 ENTRYPOINT [ "bash" ]
