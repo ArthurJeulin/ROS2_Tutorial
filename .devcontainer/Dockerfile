@@ -55,8 +55,11 @@ RUN apt-get update && apt-get install -y \
     xdg-utils \
     zip \
     zlib1g-dev \
-    && apt-get clean
+    && apt-get clean  \
+    && rm -rf /var/lib/apt/lists/*
 
+# Ajouter la commande pour sourcer le setup.bash dans le .bashrc
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 RUN wget https://github.com/Kitware/CMake/releases/download/v3.27.5/cmake-3.27.5.tar.gz && \
 tar -zxvf cmake-3.27.5.tar.gz && \
