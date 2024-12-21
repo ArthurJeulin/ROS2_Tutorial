@@ -38,7 +38,6 @@ sudo docker run --runtime nvidia -it --rm --network host --shm-size=8g \
 -v /run/jtop.sock:/run/jtop.sock \
 --name jetson_container_20241221_145539 \
 dustynv/ros:humble-desktop-l4t-r35.4.1
-
 ```
 ### Docker with GUI working on Jetson (easy)
 ```bash
