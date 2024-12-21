@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     gdb \
     gdbserver \
     git \
+    git-lfs \
     libcanberra-gtk-module \
     libcurl4-openssl-dev \
     libfile-copy-recursive-perl \
@@ -58,8 +59,9 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Ajouter la commande pour sourcer le setup.bash dans le .bashrc
-# RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source /opt/ros/humble/install/setup.bash" >> ~/.bashrc
+# Setup isaac ros environment
+RUN mkdir -p /isaac_ros-dev/src && echo "export ISAAC_ROS_WS=/isaac_ros-dev/" >> ~/.bashrc
 
 # RUN wget https://github.com/Kitware/CMake/releases/download/v3.27.5/cmake-3.27.5.tar.gz && \
 # tar -zxvf cmake-3.27.5.tar.gz && \
