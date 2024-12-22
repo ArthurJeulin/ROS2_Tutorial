@@ -32,7 +32,7 @@
 		"--device", "/dev/video0",
 		"--device", "/dev/video1"
 	],
-	"workspaceFolder": "/isaac_ros-dev",
-	"workspaceMount": "source=${localWorkspaceFolder},target=/isaac_ros-dev,type=bind",
+	"workspaceFolder": "/isaac-ros-dev",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/isaac-ros-dev,type=bind",
 	"remoteUser": "root"
 }

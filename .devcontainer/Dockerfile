@@ -61,13 +61,15 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+    
+
+# # Créer un espace de travail pour Isaac ROS
+# RUN mkdir -p /isaac-ros-dev/src
 
 # Ajouter des commandes au .bashrc
 RUN echo "source /opt/ros/humble/install/setup.bash" >> ~/.bashrc && \
-    echo "export ISAAC_ROS_WS=/isaac_ros-dev" >> ~/.bashrc
-
-# Créer un espace de travail pour Isaac ROS
-RUN mkdir -p /isaac_ros-dev/src
+    echo "export ISAAC_ROS_WS=/isaac-ros-dev" >> ~/.bashrc && \
+    echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 
 # Définir un point d'entrée par défaut
 ENTRYPOINT ["bash"]
