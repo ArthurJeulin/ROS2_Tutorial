@@ -153,3 +153,10 @@ Open a new terminal
 source /isaac-ros-dev/install/setup.bash 
 ros2 run my_cpp_pkg cpp_node
 ```
+#### ROS2 - Language libraries
+- rcl stands for ros2 client library.
+- rcl is a pure library with all the core functionalities.
+  - Under RCL there is the ros2 middleware with DDS means data distribution service. This is handling all the communication in the application.
+  - rcl is the lowest ros2 client library that can be use and it is the bridge with ros2 middlware.
+- rclcpp is a cpp client library build on top of rcl which provides a binding with rcl functionalities.
+- rclpy is a python client library build on top of rcl that can be use into python application.
