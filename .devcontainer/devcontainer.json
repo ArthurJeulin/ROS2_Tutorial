@@ -1,24 +1,38 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
 {
 	"name": "ROS 2 Humble on Jetson",
 	"build": {
-		// Sets the run context to one level up instead of the .devcontainer folder.
 		"context": ".",
-		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "Dockerfile"
 	},
-
-  "mounts": [
-    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
-    "source=/dev/bus/usb,target=/dev/bus/usb,type=bind"
-  ],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-python.python",
+				"ms-iot.vscode-ros",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"mounts": [
+		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
+		"source=/dev/bus/usb,target=/dev/bus/usb,type=bind",
+		"source=${localWorkspaceFolder},target=/workspace,type=bind"
+	],
 	"runArgs": [
-    "--runtime", "nvidia",
-    "--gpus", "all",
-    "--network", "host"
-  ]
-
-	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "arthur"
+		"--runtime", "nvidia",
+		"--gpus", "all",
+		"--network", "host",
+		"--shm-size=8g",
+		"--volume", "/var/run/docker.sock:/var/run/docker.sock",
+		"--volume", "/var/run/dbus:/var/run/dbus",
+		"--volume", "/var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket",
+		"--volume", "/ssd/jetson-containers/data:/data",
+		"--device", "/dev/snd",
+		"--device", "/dev/video0",
+		"--device", "/dev/video1"
+	],
+	"workspaceFolder": "/isaac_ros-dev",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/isaac_ros-dev,type=bind",
+	"remoteUser": "root"
 }
