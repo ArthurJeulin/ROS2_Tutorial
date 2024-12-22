@@ -96,3 +96,60 @@ Benefits:
 - Reduce code complexity
 - Fault tolerance
 - Can be written in Python or C++ and both nodes can communicate together.
+
+#### Write a C++ Node - Minimal Code
+```bash
+# Assume you already create a cpp package named my_cpp_pkg and colcon build work
+cd /isaac-ros-dev/src/my_cpp_pkg/src
+touch my_first_node.cpp
+```
+Now edit my_first_node.cpp
+```cpp
+#include "rclcpp/rclcpp.hpp"
+
+int main(int argc, char **argv)
+{
+  // Initialize ROS2 communication
+  rclcpp::init(argc,argv);
+  /**
+   * Create a std::shared_ptr
+   * It is a RAII class so no need to use new or delete
+   * To node that the node is created INSIDE the executable
+   * (The executable is not the node)
+   */
+  auto node = std::make_shared<rclcpp::Node>("cpp_test");
+  // Print a Message
+  RCLCPP_INFO(node->get_logger(),"Hello Cpp Node");
+  // rclcpp::spin expect a std::shared_ptr
+  // Spin pause the exectuable until ctrl+c or it's requested to stop.
+  rclcpp::spin(node);
+  // Shutdonw the ROS2 communication
+  rclcpp::shutdown();
+  return 0;
+}
+```
+Need to compile the program. Update CMakeLists.txt with:
+```C
+# name of the executable cpp_node
+add_executable(cpp_node src/my_first_node.cpp)
+ament_target_dependencies(cpp_node rclcpp)
+# ${PROJECT_NAME} is my_cpp_pkg
+install(TARGETS 
+  cpp_node
+  DESTINATION lib/${PROJECT_NAME}
+  )
+```
+build with colcon
+```bash
+cd /isaac-ros-dev
+colcon build --packages-select my_cpp_pkg
+# Path to the executable that will just build
+ls install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node 
+# Run the node
+./install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+```
+Open a new terminal
+```bash
+source /isaac-ros-dev/install/setup.bash 
+ros2 run my_cpp_pkg cpp_node
+```
