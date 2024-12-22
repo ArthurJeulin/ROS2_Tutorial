@@ -11,10 +11,13 @@ find_package(rclcpp REQUIRED)
 
 # name of the executable cpp_node
 add_executable(cpp_node src/my_first_node.cpp)
+add_executable(oop_node src/oop_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)
+ament_target_dependencies(oop_node rclcpp)
 # ${PROJECT_NAME} is my_cpp_pkg
 install(TARGETS 
   cpp_node
+  oop_node
   DESTINATION lib/${PROJECT_NAME}
   )
 # if(BUILD_TESTING)
