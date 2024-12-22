@@ -1,6 +1,8 @@
 # Prerequisites
 *.d
 build/
+install/
+log/
 *.zip
 # *.cfg
 *.lic
@@ -17,6 +19,8 @@ log/
 /bin/
 /lib/
 /out/
+/install/
+/log/
 # vcpkg.json
 # Fichiers
 *.exe
@@ -40,7 +44,7 @@ log/
 *.la
 *.a
 *.lib
-
+*.log
 # Executables
 *.exe
 *.out
